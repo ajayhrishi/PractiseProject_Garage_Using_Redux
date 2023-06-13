@@ -1,0 +1,99 @@
+
+
+.SubmitForm{
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 6%;
+    padding-top: 100px;
+}
+
+.InputName{
+    background-color: #cfdee4;
+    margin: 15px;
+    border-width: 1px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.InputCost{
+    background-color: #cfdee4;
+    margin: 15px;
+    border-width: 1px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.ButtonAdd{
+    background-color: #cfdee4;
+    margin: 15px;
+    border-width: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.SearchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.carIcon{
+    
+    width: 70%;
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    overflow: auto;
+}
+.DisplayName{
+    float: left;
+    padding-right: 110px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.match{color:red}
+.nonmatch{ color: black;}
+.DisplayCost{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.DeleteButton{
+    float: right;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+}
+
+
+/*------------ Under Valid Search --------------------------*/
+.carIconV{
+    color: blue;
+    width: 70%;
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    overflow: auto;
+}
+
+
