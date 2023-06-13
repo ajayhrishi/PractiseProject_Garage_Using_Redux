@@ -19,7 +19,7 @@ export default function CarSearch() {
   return (
     <div className='SearchBar'>
       <form onSubmit={handleSubmit} className='SearchInput'>
-        <input type='text' onChange={handleChange}/>
+        <label>Search: </label><input type='text' onChange={handleChange}/>
         </form>
     </div>
   )
